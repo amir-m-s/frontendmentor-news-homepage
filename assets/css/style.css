@@ -155,7 +155,7 @@ h2 {
 
 /* Utility classes */
 .container {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -211,12 +211,48 @@ h2 {
   gap: 1em;
 }
 
+/* Main title, img and decription style */
 .container .headline-img {
   grid-column: span 2;
 }
 
+.main-title h1 {
+  font-weight: 800;
+  padding-top: 0.3em;
+  padding-right: 2em;
+  align-self: center;
+}
+
+.main-content p {
+  padding-top: 1em;
+  color: var(--dark-grayish-blue);
+  line-height: 1.2;
+  word-spacing: 0.2em;
+}
+
+.readmore-btn {
+  padding-top: 1.2em;
+}
+
+.readmore-btn a {
+  display: inline-block;
+  background-color: var(--Very-dark-blue);
+  color: var(--off-white);
+  text-decoration: none;
+  padding: 1em 2em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  transition: 0.3s ease-in-out;
+}
+
+.readmore-btn a:hover {
+  background-color: hsl(240, 100%, 17%);
+}
+
+/* New Column Style */
 .new-column {
-  padding: 1.5em 1em;
+  padding: 2em 1em;
   background-color: var(--Very-dark-blue);
   grid-row: span 2;
 }
