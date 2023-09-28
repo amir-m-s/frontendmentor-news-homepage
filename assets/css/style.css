@@ -236,7 +236,7 @@ h2 {
 
 .readmore-btn a {
   display: inline-block;
-  background-color: var(--Very-dark-blue);
+  background-color: var(--soft-red);
   color: var(--off-white);
   text-decoration: none;
   padding: 1em 2em;
@@ -247,7 +247,7 @@ h2 {
 }
 
 .readmore-btn a:hover {
-  background-color: hsl(240, 100%, 17%);
+  background-color: var(--Very-dark-blue);
 }
 
 /* New Column Style */
@@ -292,4 +292,47 @@ h2 {
 
 .new-column li:last-child {
   border: none;
+}
+
+.card {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 2fr;
+  gap: 0.5em;
+}
+
+.card .number {
+  color: var(--grayish-blue);
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.card-img img {
+  max-width: 80%;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content h2 {
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.card-content a {
+  color: inherit;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.card-content a:hover {
+  color: var(--soft-red);
+}
+
+.attribution {
+  text-align: center;
+  padding: 2em 0 0;
 }
