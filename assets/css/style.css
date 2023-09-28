@@ -185,6 +185,10 @@ h2 {
   cursor: pointer;
 }
 
+.navbar-btn img {
+  width: 100%;
+}
+
 .navbar {
   justify-self: right;
 }
